@@ -29,4 +29,10 @@ public class FizzBuzzTest {
 		assertEquals("2", result);
 	}
 	
+	@Test
+	public void threeReturnsFizz() {
+		String result = fb.play(3);
+		assertEquals("Fizz", result);
+	}
+	
 }
