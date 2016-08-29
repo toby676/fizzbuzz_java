@@ -18,36 +18,6 @@ public class FizzBuzzTest {
 	}
 	
 	@Test
-	public void oneReturnsOne() {
-		String result = fb.play(1);
-		assertEquals("1", result);
-	}
-	
-	@Test
-	public void twoReturnsTwo() {
-		String result = fb.play(2);
-		assertEquals("2", result);
-	}
-	
-	@Test
-	public void threeReturnsFizz() {
-		String result = fb.play(3);
-		assertEquals("Fizz", result);
-	}
-	
-	@Test
-	public void fiveReturnsBuzz() {
-		String result = fb.play(5);
-		assertEquals("Buzz", result);
-	}
-	
-	@Test
-	public void fifteenReturnsFizzBuzz() {
-		String result = fb.play(15);
-		assertEquals("FizzBuzz", result);
-	}
-	
-	@Test
 	public void multiplesOfThreeReturnFizz() {
 		assertEquals("Fizz", fb.play(3));
 		assertEquals("Fizz", fb.play(6));
