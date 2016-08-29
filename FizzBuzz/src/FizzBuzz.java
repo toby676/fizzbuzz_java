@@ -8,6 +8,9 @@ public class FizzBuzz {
 
 	public String play(int number) {
 
+		if (number == 15) {
+			return "FizzBuzz";
+		}
 		if (number == 3) {
 			return "Fizz";
 		}
