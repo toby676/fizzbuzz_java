@@ -47,4 +47,15 @@ public class FizzBuzzTest {
 		assertEquals("FizzBuzz", result);
 	}
 	
+	@Test
+	public void multiplesOfThreeReturnFizz() {
+		assertEquals("Fizz", fb.play(3));
+		assertEquals("Fizz", fb.play(6));
+		assertEquals("Fizz", fb.play(9));
+		assertEquals("Fizz", fb.play(12));
+		assertEquals("Fizz", fb.play(18));
+		assertEquals("Fizz", fb.play(21));
+	}
+
+	
 }
