@@ -68,4 +68,15 @@ public class FizzBuzzTest {
 		
 	}
 	
+	@Test
+	public void multiplesOfFifteenReturnFizzBuzz() {
+		assertEquals("FizzBuzz", fb.play(15));
+		assertEquals("FizzBuzz", fb.play(30));
+		assertEquals("FizzBuzz", fb.play(45));
+		assertEquals("FizzBuzz", fb.play(60));
+		assertEquals("FizzBuzz", fb.play(75));
+		assertEquals("FizzBuzz", fb.play(90));
+		
+	}
+	
 }
