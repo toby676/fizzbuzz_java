@@ -8,6 +8,9 @@ public class FizzBuzz {
 
 	public String play(int number) {
 		// TODO Auto-generated method stub
+		if (number == 3) {
+			return "Fizz";
+		}
 		return Integer.toString(number);
 	}
 
