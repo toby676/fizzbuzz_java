@@ -23,4 +23,10 @@ public class FizzBuzzTest {
 		assertEquals("1", result);
 	}
 	
+	@Test
+	public void twoReturnsTwo() {
+		String result = fb.play(2);
+		assertEquals("2", result);
+	}
+	
 }

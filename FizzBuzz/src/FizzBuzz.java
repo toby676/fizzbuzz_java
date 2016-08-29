@@ -8,7 +8,7 @@ public class FizzBuzz {
 
 	public String play(int number) {
 		// TODO Auto-generated method stub
-		return "1";
+		return Integer.toString(number);
 	}
 
 }
