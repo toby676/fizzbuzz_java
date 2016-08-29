@@ -35,4 +35,10 @@ public class FizzBuzzTest {
 		assertEquals("Fizz", result);
 	}
 	
+	@Test
+	public void fiveReturnsBuzz() {
+		String result = fb.play(5);
+		assertEquals("Buzz", result);
+	}
+	
 }
