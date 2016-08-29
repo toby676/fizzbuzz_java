@@ -65,7 +65,6 @@ public class FizzBuzzTest {
 		assertEquals("Buzz", fb.play(25));
 		assertEquals("Buzz", fb.play(35));
 		assertEquals("Buzz", fb.play(40));
-		
 	}
 	
 	@Test
@@ -76,7 +75,16 @@ public class FizzBuzzTest {
 		assertEquals("FizzBuzz", fb.play(60));
 		assertEquals("FizzBuzz", fb.play(75));
 		assertEquals("FizzBuzz", fb.play(90));
-		
+	}
+	
+	@Test
+	public void nonMultpplesOfThreeAndFiveReturnNumber() {
+		assertEquals("2", fb.play(2));
+		assertEquals("8", fb.play(8));
+		assertEquals("13", fb.play(13));
+		assertEquals("26", fb.play(26));
+		assertEquals("98", fb.play(98));
+		assertEquals("94", fb.play(94));
 	}
 	
 }
