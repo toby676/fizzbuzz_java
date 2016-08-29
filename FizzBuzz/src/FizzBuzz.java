@@ -8,16 +8,24 @@ public class FizzBuzz {
 
 	public String play(int number) {
 
-		if (number % 15 == 0) {
+		if (isMultipleOf5(number) && isMultipleOf3(number)) {
 			return "FizzBuzz";
 		}
-		if (number % 3 == 0) {
+		if (isMultipleOf3(number)) {
 			return "Fizz";
 		}
-		if (number % 5 == 0) {
+		if (isMultipleOf5(number)) {
 			return "Buzz";
 		}
 		return Integer.toString(number);
+	}
+	
+	private boolean isMultipleOf5(int number) {
+		return 0 == number % 5;
+	}
+	
+	private boolean isMultipleOf3(int number) {
+		return 0 == number % 3;
 	}
 
 }
