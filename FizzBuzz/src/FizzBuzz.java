@@ -1,11 +1,6 @@
 
 public class FizzBuzz {
 
-	public static void main(String[] args) {
-
-
-	}
-
 	public String play(int number) {
 
 		if (isMultipleOf5(number) && isMultipleOf3(number)) {
